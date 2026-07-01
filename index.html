@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pavan Kumar | Actor Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #d4af37;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:3rem;
+    color:#d4af37;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.section{
+    background:white;
+    padding:30px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.section h2{
+    color:#d4af37;
+    margin-bottom:20px;
+    border-bottom:2px solid #d4af37;
+    padding-bottom:10px;
+}
+
+.profile-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fafafa;
+    padding:20px;
+    border-radius:10px;
+    border-left:4px solid #d4af37;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#111;
+    color:white;
+    padding:10px 15px;
+    border-radius:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#111;
+    color:white;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:left;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2rem;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <img src="images/image7.png" alt="Profile Photo">
+    <h1>Pavan Kumar</h1>
+    <p>Actor | Performer </p>
+</header>
+
+<div class="container">
+
+    <section class="section">
+        <h2>About Me</h2>
+        <p>
+            Passionate and dedicated actor aspiring to work in films,
+            web series, television, and commercials. Skilled in expressive
+            performance, dialogue delivery, character portrayal, and dance.
+            Committed to delivering authentic and impactful performances.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Profile</h2>
+
+        <div class="profile-grid">
+
+            <div class="card">
+                <h3>Physical Details</h3>
+                <p>Age: 25</p>
+                <p>Height: 5'8"</p>
+                <p>Weight: 70</p>
+                <p>Hair Color: Black</p>
+                <p>Eye Color: Black</p>
+            </div>
+
+            <div class="card">
+                <h3>Languages</h3>
+                <p>Telugu</p>
+                <p>English</p>
+                <p>Hindi</p>
+            </div>
+
+            <div class="card">
+                <h3>Availability</h3>
+                <p>Films</p>
+                <p>Web Series</p>
+                <p>Advertisements</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Special Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Acting</div>
+            <div class="skill">Dance</div>
+            <div class="skill">Voice Modulation</div>
+            <div class="skill">Improvisation</div>
+            <div class="skill">Public Speaking</div>
+            <div class="skill">Character Performance</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Training & Workshops</h2>
+
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Institute</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Acting</td>
+                <td>Annapurna College of Film and Media</td>
+                <td>2026</td>
+            </tr>
+        </table>
+    </section>
+
+   
+
+    <section class="section">
+        <h2>Portfolio Gallery</h2>
+
+        <div class="gallery">
+            <img src="images/image9.png" alt="">
+            <img src="images/image8.png" alt="">
+            <img src="images/image12.png" alt="">
+            <img src="images/image10.png" alt="">
+            <img src="images/image6.png" alt="">
+            <img src="images/image11.png" alt="">
+            <img src="images/image13.png" alt="">
+
+        </div>
+    </section>
+
+    <section class="section contact">
+        <h2>Contact</h2>
+
+        <p>📞 +91 9182593151</p>
+        <p>
+         📧 <a>actorpavan26@gmail.com</a>
+        <p>📍 Hyderabad, Telangana</p>
+        <p>📸 Instagram:<a href="https://www.instagram.com/pavan__pmr?igsh=ODY3cDZ5aHV0eTF1&utm_source=qr" target="_blank">
+    @Pavan
+</a></p>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 Pavan Kumar | Professional Acting Portfolio
+</footer>
+
+</body>
+</html>
